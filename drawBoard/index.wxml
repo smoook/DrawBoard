@@ -1,0 +1,17 @@
+<!-- canvas画板，生成图片 -->
+<view>
+  <canvas
+    canvas-id="boardCanvas"
+    style="width: {{canvasw}}px; height: {{canvash}}px;"
+    disable-scroll="true"
+    bind:touchstart="touchStart"
+    bind:touchmove="drawing"
+    bind:touchend="touchEnd"
+  ></canvas>
+  <view class="btn-save" hover-class="none" hover-stop-propagation="false">
+    <icon class="iconfont icon-down-circle green" bindtap="downLoad"></icon>
+    <icon class="iconfont icon-close-circle red" bindtap="clear"></icon>
+    <icon class="iconfont icon-check-circle blue" bindtap="getPic"></icon>
+  </view>
+
+</view>

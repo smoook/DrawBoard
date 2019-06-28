@@ -1,0 +1,61 @@
+/* components/board/index.wxss */
+/* 图标 */
+@font-face {
+    font-family: 'iconfont';  /* project id 1266200 */
+    src: url('//at.alicdn.com/t/font_1266200_rdcqdwrhtab.eot');
+    src: url('//at.alicdn.com/t/font_1266200_rdcqdwrhtab.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1266200_rdcqdwrhtab.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1266200_rdcqdwrhtab.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1266200_rdcqdwrhtab.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1266200_rdcqdwrhtab.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 32rpx;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-qianbipencil83:before {
+    content: "\e6bd";
+  }
+
+  .icon-color:before {
+    content: "\e760";
+  }
+
+  .icon-check-circle:before {
+    content: "\e77d";
+  }
+
+  .icon-close-circle:before {
+    content: "\e77e";
+  }
+
+  .icon-down-circle:before {
+    content: "\e77f";
+  }
+
+.btn-save {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    width: 100%;
+    text-align: center;
+}
+.btn-save .iconfont{
+    font-size: 100rpx;
+    padding: 0 20rpx 20rpx;
+}
+
+.red{
+    color: crimson;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: cornflowerblue;
+}
